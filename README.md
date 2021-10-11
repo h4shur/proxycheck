@@ -1,5 +1,5 @@
 # proxycheck
-checking tor proxy and other proxy
+Script for checking tor proxies and other proxies
 
 options :
 1. Checking the proxy tor separately
