@@ -6,11 +6,9 @@
 // h4shursec@gmail.com
 
  if ($_SERVER["HTTP_X_FORWARDED_FOR"] != "") {
-                $IPs = $_SERVER["REMOTE_ADDR"];
                 $IP = $_SERVER["HTTP_X_FORWARDED_FOR"];
             } else {
                 $IP = $_SERVER["REMOTE_ADDR"];
-                $IPs = $_SERVER["HTTP_X_FORWARDED_FOR"];
             } 
             
 
